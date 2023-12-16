@@ -1,0 +1,112 @@
+.first-content{
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: 1rem;
+    background-color: #4C433214;
+    border-top-left-radius: 5rem;
+    display: flex;
+    align-items: center;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin-left: 1rem;
+}
+.perfect{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #4D4332;
+}
+.discover{
+    font-weight: 500;
+    font-family: 'Roboto' ,sans-serif;
+    line-height: 18px;
+    color: #4D4332;
+}
+.learn{
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 16px;
+    height: 38px;
+    width: 110px;
+    color: white;
+    background-color: #4C4332;
+    border: none;
+    border-radius: 8px;
+}
+.article-image{
+    width: 40rem;
+}
+@media (max-width:1150px) {
+    .first-content{
+        border-top-left-radius: 4rem;
+    }
+    .article{
+        row-gap: 1.6rem;
+    }
+    .perfect{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .discover{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .article-image{
+        width: 35rem;
+    }
+}
+@media (max-width:995px) {
+    .first-content{
+        margin-top: 0.5rem;
+    }
+    .article{
+        row-gap: 1rem;
+    }
+    .perfect{
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .discover{
+        font-size: 12px;
+    }
+    .article-image{
+        width: 25rem;
+    }
+    .learn{
+        font-size: 12px;
+        height: 28px;
+        width: 90px;
+        border-radius: 5px;
+    }
+}
+@media (max-width:768px) {
+    .first-content{
+        border-top-left-radius: 2rem;
+    }
+    .article{
+        margin-left: 0.5rem;
+        row-gap: 0.5rem;
+    }
+    .perfect{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .discover{
+        font-size: 10px;
+    }
+    .article-image{
+        width: 20rem;
+    }
+}
+@media (max-width:600px) {
+    .article-image{
+        width: 16rem;
+    }
+}
+@media (max-width:475px) {
+    .first-content{
+        padding-top: 0.5rem;
+        flex-direction: column;
+    }
+}

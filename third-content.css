@@ -1,0 +1,28 @@
+.images-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    margin-top: 3rem;
+    gap: 1rem;
+    font-family: 'Roboto' ,sans-serif;
+}
+.city-pic{
+    width: 15rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 15.2rem;
+}
+.pic{
+    height: 18.1rem;
+    width: fit-content;
+}
+@media (max-width:768px) {
+    .images-card-container{
+        margin-top: 1.5rem;
+    }
+}
+@media (max-width:475px) {
+    .images-card-container{
+        margin-top: 0.5rem;
+    }
+}

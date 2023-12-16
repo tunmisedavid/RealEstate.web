@@ -1,0 +1,141 @@
+.footer{
+    background-color: #4C4332;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin-top: 3rem;
+    height: 17rem;
+}
+.footer p{
+    color: white;
+    font-family: 'Roboto' ,sans-serif;
+}
+.footer-1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+.last-choice{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+}
+.wrapper-2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+.socials{
+    display: flex;
+    gap: 10px;
+}
+.footer-2{
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+}
+.column-1{
+    font-family: 'Roboto' ,sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.head{
+    font-weight: 600;
+    font-size: 20px;
+}
+.columns{
+    font-size: 18px;
+}
+
+@media (max-width:900px) {
+    .footer{
+        margin-top: 2rem;
+        height: 14rem;
+    }
+    .footer-1{
+        row-gap: 2rem;
+    }
+    .last-choice{
+        font-size: 25px;
+    }
+    .follow{
+        font-size: 14px;
+    }
+    .socials{
+        gap: 6px;
+    }
+    .socials img{
+        width: 1rem;
+    }
+    .footer-2{
+        column-gap: 1.5rem;
+    }
+   .head{
+        font-size: 17px;
+   }
+   .columns{
+    font-size: 16px;
+   }
+}
+
+@media (max-width:680px) {
+    .footer{
+        margin-top: 1rem;
+        padding: 0 1rem;
+        height: 10rem;
+    }
+    .footer-1{
+        row-gap: 1rem;
+    }
+    .wrapper-1{
+        width: 9rem;
+    }
+    .last-choice{
+        font-size: 20px;
+    }
+    .follow{
+        font-size: 12px;
+    }
+    .socials{
+        gap: 4px;
+    }
+    .socials img{
+        width: 0.8rem;
+    }
+    .head{
+        font-size: 13px;
+    }
+    .columns{
+        font-size: 10px;
+    }
+}
+@media (max-width:475px) {
+    .last-choice{
+        font-size: 16px;
+    }
+    .wrapper-1{
+        width: 6rem;
+    }
+    .footer-2{
+        column-gap: 0.5rem;
+    }
+}
+@media (max-width:385px) {
+    .footer{
+        padding: 0.5rem 0 ;
+        flex-direction: column;
+        /* height: 12rem; */
+    }   
+    .footer-1{
+        flex-direction: row;
+        column-gap: 2rem;
+        justify-content: space-between;
+    }
+    .wrapper-1{
+        width: 100%;
+        flex-grow: 1;
+    }
+}
